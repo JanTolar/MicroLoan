@@ -147,6 +147,7 @@ function sendLoanExtensionRequest() {
 					</table>
 				</form>
 			</div>
+			<a href="loan_form"><spring:message code="loan.showHistory" /></a><br /><br />
 		</div>
 	</div>
 </div>

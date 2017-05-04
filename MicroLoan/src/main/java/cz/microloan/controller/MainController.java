@@ -32,7 +32,7 @@ public class MainController {
 	 * @param Model model
 	 * @return loan_form main page
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = {"/", "/loan_form"}, method = RequestMethod.GET)
 	public String index(final Model model) {
 		
 		// Add possible min and max loan terms for loan_form term select element
